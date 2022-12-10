@@ -27,3 +27,10 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.contaioner {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
